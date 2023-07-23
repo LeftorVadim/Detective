@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+div.block {
+    margin-right: auto;
+    margin-left: auto;
+    outline: black 5px;
+    vertical-align: central;
+    border: black 3px;
+    width: 400px;
+    height: auto;
+    text-align: justify-all;
+}
+div.block p {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+div.statistic {
+    margin-left: auto;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: auto;
+    border: black;
+}
+IMG.garold {
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
