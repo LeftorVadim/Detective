@@ -14,7 +14,7 @@ public class FinishServlet extends HttpServlet {
         String amount = (String) session.getAttribute("amountOfClue");
         int count = Integer.parseInt(amount);
 
-        if (count >= 2) {
+        if (count >= 3) {
             getServletContext().getRequestDispatcher("/caseInvestigated.jsp").forward(req, resp);
         } else {
             getServletContext().getRequestDispatcher("/caseNotInvestigated.jsp").forward(req, resp);

@@ -78,4 +78,13 @@
         <servlet-name>Suspect</servlet-name>
         <url-pattern>/suspect</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Calculator</servlet-name>
+        <jsp-file>/calculatorClue.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Calculator</servlet-name>
+        <url-pattern>/calculator</url-pattern>
+    </servlet-mapping>
 </web-app>

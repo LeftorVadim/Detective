@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Title</title>
+    <title>Not investigated</title>
     <link href="static/my.css" rel="stylesheet">
 </head>
 <body>

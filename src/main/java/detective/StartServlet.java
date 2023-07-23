@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.util.*;
 
 public class StartServlet extends HttpServlet {
-
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
